@@ -31,11 +31,7 @@ def print_func(S):
             else:
                 xor ^= i[1]
                 check=1
-                # if check==1:
-                #     xor^=i[1]
-                # else:
-                #     xor=i[1]
-
+                
     if check==1:
         print val^xor
     else:
