@@ -20,11 +20,7 @@ def dijsktra(graph, initial):
     path = {}
 
     nodes = set(graph.nodes)
-    #print graph.edges
-    #print graph.distances
-    #print nodes
-    #sys.exit()
-    while nodes: 
+    while nodes:
         min_node = None
         for node in nodes:
             if node in visited:
